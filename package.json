@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "name": "next-launch",
+  "description": "",
+  "repository": "https://github.com/byurhanbeyzat/next-launch",
+  "author": "Byurhan Beyzat <hi@byurhanbeyzat.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev --port 8000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.2.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "eslint-config-byurhan": "^0.0.5"
+  }
+}

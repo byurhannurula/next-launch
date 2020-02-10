@@ -24,21 +24,3 @@
     background-color: #f1f1f1c2;
   }
 }
-
-.col {
-  &-50 {
-    width: 45%;
-    
-    &:first-child {
-      margin-right: 32px;
-    }
-  }
-
-  &-25 {
-    width: 25%;
-
-    &:first-child {
-      margin-right: 32px;
-    }
-  }
-}

@@ -22,14 +22,9 @@ export const rocketsQuery = `
       id
       type
       wikipedia
-      stages
-      success_rate_pct
       active
       name
       boosters
-      company
-      cost_per_launch
-      country
       description
       engines {
         type
@@ -38,19 +33,9 @@ export const rocketsQuery = `
         propellant_1
         propellant_2
       }
-      first_stage {
-        engines
-        reusable
-        burn_time_sec
-      }
       landing_legs {
         material
         number
-      }
-      second_stage {
-        engines
-        burn_time_sec
-        fuel_amount_tons
       }
       mass {
         kg
@@ -65,6 +50,34 @@ export const rocketsQuery = `
       diameter {
         meters
       }
+    }
+  }
+`
+
+export const capsulesQuery = `
+  query {
+    dragons {
+      id
+      name
+      type
+      active
+      wikipedia
+      crew_capacity
+      description
+      dry_mass_kg
+      diameter {
+        meters
+      }
+      height_w_trunk {
+        meters
+      }
+      heat_shield {
+        material
+        dev_partner
+        size_meters
+        temp_degrees
+      }
+      orbit_duration_yr
     }
   }
 `

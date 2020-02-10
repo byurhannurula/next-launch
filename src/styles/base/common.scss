@@ -48,3 +48,21 @@ ul > li {
 .is-dark {
   color: #ffffff;
 }
+
+.col {
+  &-50 {
+    width: 45%;
+    
+    &:first-child {
+      margin-right: 32px;
+    }
+  }
+
+  &-25 {
+    width: 25%;
+
+    &:first-child {
+      margin-right: 32px;
+    }
+  }
+}

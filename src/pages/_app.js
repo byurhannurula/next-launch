@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import Header from '../components/header'
 
-import '../styles/app.css'
+import '../styles/app.scss'
 
 function MyApp({ Component, pageProps }) {
   return (

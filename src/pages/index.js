@@ -1,23 +1,6 @@
 import React from 'react'
 import { client } from '../lib/client'
-
-const query = `
-  query {
-    company {
-      ceo
-      coo
-      cto_propulsion
-      employees
-      founded
-      founder
-      name
-      summary
-      vehicles
-      test_sites
-      launch_sites
-    }
-  }
-`
+import { companyQuery } from '../requests'
 
 const Home = ({ res }) => (
   <div className="bg-1">
@@ -44,7 +27,9 @@ const Home = ({ res }) => (
 )
 
 Home.getInitialProps = async () => {
-  const data = await client.request(query).catch(err => alert(`Error! ${err}`))
+  const data = await client
+    .request(companyQuery)
+    .catch(err => alert(`Error! ${err}`))
 
   return { res: data.company }
 }

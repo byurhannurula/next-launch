@@ -1,0 +1,44 @@
+.rocket {
+  width: 100%;
+  min-height: 300px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  margin-bottom: 42px;
+  padding: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 44px;
+  margin-top: 28px;
+
+  span {
+    padding: 8px 18px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #f1f1f1c2;
+  }
+}
+
+.col {
+  &-50 {
+    width: 45%;
+    
+    &:first-child {
+      margin-right: 32px;
+    }
+  }
+
+  &-25 {
+    width: 25%;
+
+    &:first-child {
+      margin-right: 32px;
+    }
+  }
+}

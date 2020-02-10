@@ -32,21 +32,20 @@ export const RocketCard = ({ data }) => (
         <li>Mass: {data.mass.kg}kg</li>
         <li>Boosters: {data.boosters}</li>
       </ul>
+      <h3>Engines:</h3>
+      <ul>
+        <li>Engine: {data.engines.number}</li>
+        <li>Type: {data.engines.type}</li>
+        <li>Version: {data.engines.version}</li>
+        <li>Propellant 1: {data.engines.propellant_1}</li>
+        <li>Propellant 2: {data.engines.propellant_2}</li>
+      </ul>
+    </div>
+    <div className="col-25">
       <h3>Landing Legs:</h3>
       <ul>
         <li>Number: {data.landing_legs.number}</li>
         <li>Material: {data.landing_legs.material}</li>
-      </ul>
-    </div>
-    <div className="col-25">
-      <h3>Engines:</h3>
-      <ul>
-        <li>Engine: {data.number}</li>
-        <li>Type: {data.type}</li>
-        <li>Version: {data.version}</li>
-        <li>Engine: {data.number}</li>
-        <li>Propellant 1: {data.propellant_1}</li>
-        <li>Propellant 2: {data.propellant_2}</li>
       </ul>
       <h3>Payload Weights:</h3>
       <ul>

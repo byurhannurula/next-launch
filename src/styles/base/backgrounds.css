@@ -1,5 +1,6 @@
 .bg-1 {
-  padding-top: 32px;
+  color: #ffffff;
+  padding-top: 52px;
   height: calc(100vh - 60px);
   background-image: url('/bg.jpeg');
   background-repeat: no-repeat;

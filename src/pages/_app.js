@@ -11,6 +11,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Next &ndash; Launch</title>
         <meta name="title" content="Next &ndash; Launch" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Header />
       <main role="main">

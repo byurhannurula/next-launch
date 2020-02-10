@@ -1,2 +1,6 @@
 @import url('./reset.css');
-@import url('./common.css');
+
+@import url('./base/common.css');
+@import url('./base/backgrounds.css');
+
+@import url('./layouts/header.css');

@@ -1,0 +1,13 @@
+body {
+  font-family: 'Roboto', -apple-system, Roboto, 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

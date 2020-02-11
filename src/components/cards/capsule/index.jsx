@@ -1,9 +1,7 @@
 import React from 'react'
 
-import './styles.scss'
-
 export const CapsuleCard = ({ data }) => (
-  <div className="capsule">
+  <div className="card">
     <div className="col-50">
       <header>
         <h2>{data.name}</h2>

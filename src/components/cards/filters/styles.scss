@@ -1,0 +1,35 @@
+.card.filter-card {
+  display: flex;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .inputs {
+    label {
+      margin-right: 24px;
+    }
+
+    select {
+      background-color: #fff;
+      border-color: #dbdbdb;
+      color: #363636;
+      cursor: pointer;
+      font-size: 1em;
+      max-width: 100%;
+      outline: 0;
+      width: 134px;
+    }
+  }
+
+  .search-btn {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    color: #363636;
+    padding: 9px 24px;
+    border-radius: 4px;
+  }
+}

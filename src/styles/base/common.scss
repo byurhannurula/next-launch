@@ -58,6 +58,14 @@ ul > li {
     }
   }
 
+  &-35 {
+    width: 35%;
+    
+    &:first-child {
+      margin-right: 32px;
+    }
+  }
+
   &-25 {
     width: 25%;
 
@@ -65,4 +73,14 @@ ul > li {
       margin-right: 32px;
     }
   }
+}
+
+.bg-1 {
+  color: #ffffff;
+  padding-top: 52px;
+  height: calc(100vh - 60px);
+  background-image: url('/bg-0.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

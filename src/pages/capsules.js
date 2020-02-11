@@ -8,7 +8,7 @@ const Capsules = ({ data }) => (
   <>
     <div
       className="page-header is-dark"
-      style={{ backgroundImage: "url('/bg-1.jpeg')" }}
+      style={{ background: "url('/bg-1.jpeg') fixed" }}
     >
       <div className="container">
         <h1>Capsules</h1>

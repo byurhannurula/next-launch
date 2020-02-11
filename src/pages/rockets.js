@@ -8,7 +8,7 @@ const Rockets = ({ data }) => (
   <>
     <div
       className="page-header is-dark"
-      style={{ backgroundImage: "url('/bg-3.jpeg')" }}
+      style={{ background: "url('/bg-3.jpeg') bottom fixed" }}
     >
       <div className="container">
         <h1>Rockets</h1>

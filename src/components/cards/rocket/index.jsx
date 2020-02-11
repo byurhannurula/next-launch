@@ -3,7 +3,7 @@ import React from 'react'
 import './styles.scss'
 
 export const RocketCard = ({ data }) => (
-  <div className="rocket">
+  <div className="card">
     <div className="col-50">
       <header>
         <h2>{data.name}</h2>

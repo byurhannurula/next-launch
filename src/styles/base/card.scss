@@ -3,9 +3,34 @@
   min-height: 300px;
   border-radius: 5px;
   background-color: #ffffff;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
-  margin-bottom: 42px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  margin-bottom: 56px;
   padding: 28px;
   display: flex;
   justify-content: space-between;
+
+  h2 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  
+  li, p {
+    font-size: 17px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+    margin-top: 28px;
+  
+    span {
+      padding: 8px 18px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      background-color: #f1f1f1c2;
+    }
+  }
 }
+

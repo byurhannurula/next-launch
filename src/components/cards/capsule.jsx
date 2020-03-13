@@ -26,18 +26,36 @@ export const CapsuleCard = ({ data }) => (
     <div className="col-50">
       <h3>Specifications:</h3>
       <ul>
-        <li>Height: {data.height_w_trunk.meters}m</li>
-        <li>Diameter: {data.diameter.meters}m</li>
-        <li>Launch Mass: {data.dry_mass_kg}kg</li>
-        <li>Crew Capacity: {data.crew_capacity}</li>
-        <li>Orbital Duration: {data.orbit_duration_yr} years</li>
+        <li>
+          <b>Crew Capacity:</b> {data.crew_capacity}
+        </li>
+        <li>
+          <b>Height:</b> {data.height_w_trunk.meters}m
+        </li>
+        <li>
+          <b>Diameter:</b> {data.diameter.meters}m
+        </li>
+        <li>
+          <b>Launch Mass:</b> {data.dry_mass_kg}kg
+        </li>
+        <li>
+          <b>Orbital Duration:</b> {data.orbit_duration_yr} years
+        </li>
       </ul>
       <h3>Heat Shield:</h3>
       <ul>
-        <li>Size: {data.heat_shield.size_meters}m</li>
-        <li>Max Temp.: {data.heat_shield.temp_degrees}C</li>
-        <li>Material: {data.heat_shield.material}</li>
-        <li>Partner: {data.heat_shield.dev_partner}</li>
+        <li>
+          <b>Size:</b> {data.heat_shield.size_meters}m
+        </li>
+        <li>
+          <b>Max Temp.:</b> {data.heat_shield.temp_degrees} &deg;C
+        </li>
+        <li>
+          <b>Material:</b> {data.heat_shield.material}
+        </li>
+        <li>
+          <b>Partner:</b> {data.heat_shield.dev_partner}
+        </li>
       </ul>
     </div>
   </div>

@@ -84,7 +84,7 @@ export const capsulesQuery = `
 
 export const launchesQuery = `
   query {
-    launches(limit: 50) {
+    launches {
       id
       details
       mission_name
@@ -95,13 +95,12 @@ export const launchesQuery = `
         rocket_name
       }
       launch_site {
+        site_name
         site_name_long
       }
       links {
         mission_patch_small
-        mission_patch
         video_link
-        wikipedia
       }
     }
   }

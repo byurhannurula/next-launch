@@ -84,7 +84,7 @@ export const capsulesQuery = `
 
 export const launchesQuery = `
   query {
-    launches {
+    launches(order: "DESC", sort: "launch_date_local") {
       id
       details
       mission_name
@@ -108,7 +108,7 @@ export const launchesQuery = `
 
 export const upcomingLaunchesQuery = `
   query {
-    launchesUpcoming(limit: 50) {
+    launchesUpcoming(limit: 50, order: "DESC", sort: "launch_date_local") {
       id
       details
       mission_name

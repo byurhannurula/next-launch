@@ -9,7 +9,7 @@ export const CapsuleCard = ({ data }) => (
       <div className="buttons">
         <span
           style={{
-            backgroundColor: data.active === false ? '#ff3860' : '#00d1b2',
+            backgroundColor: data.active === false ? '#ff3860' : '#00d1b2'
           }}
         >
           Status {data.active === false ? 'Inactive' : 'Active'}

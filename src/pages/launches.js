@@ -1,8 +1,9 @@
+// eslint-disable
 import React from 'react'
 import { client } from '../lib/client'
 import { launchesQuery } from '../requests'
 
-import { LaunchCard, FilterCard } from '../components/cards'
+import { LaunchCard } from '../components/cards'
 
 const Launches = ({ data }) => (
   <>
@@ -15,7 +16,7 @@ const Launches = ({ data }) => (
       </div>
     </div>
     <div className="container" style={{ marginTop: '-56px' }}>
-      <FilterCard />
+      {/* <FilterCard /> */}
       {data.launches.map(node => (
         <LaunchCard key={node.id} data={node} />
       ))}
@@ -26,7 +27,7 @@ const Launches = ({ data }) => (
 Launches.getInitialProps = async () => {
   const launches = await client
     .request(launchesQuery)
-    .catch(err => alert(`Error! - ${err}`))
+    .catch(err => console.log(`Error! - ${err}`))
 
   return { data: launches }
 }

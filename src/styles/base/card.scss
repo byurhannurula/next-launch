@@ -9,6 +9,10 @@
   display: flex;
   justify-content: space-between;
 
+  &.launch {
+    min-height: 412px;
+  }
+
   h2 {
     margin-bottom: 0;
     text-transform: uppercase;
@@ -34,3 +38,9 @@
   }
 }
 
+
+
+.mission-image {
+  max-width: 256px;
+  height: auto;
+}
